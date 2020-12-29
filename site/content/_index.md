@@ -1,19 +1,41 @@
 ---
-title: "Blue Note Therapeutics"
-image: /img/home-jumbotron.jpg
-blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+title: "cerena"
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    text: "A digital therapeutic program to aid the physical health of people with cancer."
+module1:
+    heading: How it can help
+    img: /img/illustration-01.png
+    text: >-
+      Almost everyone with cancer experiences challenges to their physical health that are in addition to the cancer. Cerena™ provides resources to help you manage your physical health conveniently located on your smartphone or tablet.
+module2:
+    heading: The science behind it
+    img: /img/illustration-02.png
+    text: >-
+      Scientific studies have demonstrated that people can take steps to improve their control of their physical health, even when dealing with serious illnesses such as cancer. Cerena™ was designed to guide you in managing your physical health as a part of your overall health journey.
+module3:
+    heading: How to get it
+    img: /img/illustration-03.png
+    text: >-
+      Cerena™ is available today, but only by prescription from your doctor.  If you're still receiving medical treatment for your cancer, you can use cerena™ at the same time.
+slides:
+    - heading: Get your prescription
+      eyebrow: step one
+      img: /img/slide-01.png
+      text: >-
+        Talk with your doctor about the feelings you’ve been experiencing since your cancer diagnosis. Your doctor will suggest a care plan for you, which may include a prescription for cerena™. You will be given a link and an access code to download the app.
+    - heading: Download & setup
+      eyebrow: step two
+      img: /img/slide-02.png
+      text: >-
+        Once you download the app, we’ll guide you through the setup process to personalize the program to your individual needs and preferences.
+    - heading: Get started
+      eyebrow: step three
+      img: /img/slide-03.png
+      text: >-
+        With an easy to understand design, cerena™ will walk you through each step.  You'll be able to discover new insights about your physical health and learn new ways to improve your physical health.
+    - heading: Keep going!
+      eyebrow: step four
+      img: /img/slide-04.png
+      text: >-
+        With 10 different lesson modules, cerena™ lets you work at your own pace and even repeat steps whenever you want, unlocking new resources along the way.
 ---
-

@@ -1,46 +1,18 @@
-<footer class="bg-black ph3 pv4 white">
+<footer class="bg-primary ph3 pv4 white mt5">
 
-	<div class="mw7 center pt3">
+	<div class="mw8 center pt3">
 
-		<div class="measure-narrow center mb4">
+		<div class="flex-ns tc tl-ns justify-between">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
+			<div style="font-size:0.7rem;">
+				<a href="https://bluenotetherapeutics.com/"><img src="/img/logo-bn-white.svg" class="br0 mb2 w4" /></a>
 			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
+			<div class="tr-ns" style="font-size:0.7rem;">
+				<div class="mb1">© 2020 Blue Note Therapeutics. All rights reserved.</div>
+				<div>
+					<a href="https://bluenotetherapeutics.com/#open-modal-contact" class="link">Contact us</a> | <!-- <a href="/docs/cerena_ToU.pdf" class="link">Terms of Use</a> | --> <a href="https://bluenotetherapeutics.com/privacy/" class="link">Privacy Policy</a>
+				</div>
 			</div>
 
 		</div>
@@ -48,6 +20,7 @@
 
 </footer>
 
-{{ partial "svg" . }}
 
-<script src="/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/scrollto.js"></script>
+<script type="text/javascript" src="/js/owl.carousel.min.js"></script>

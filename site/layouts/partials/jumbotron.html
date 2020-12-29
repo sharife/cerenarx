@@ -1,19 +1,35 @@
-<div class="pv5 pv6-l bg-center cover bg-white" style="width:100vw; height:100vh">
-  <div class="mw8 center pv5">
-    <div class="db mb3">
-      <!-- <div class="mw7 relative bg-fix-primary mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-          {{.title}}
-        </h1>
-      </div> -->
-      <div class="mw8 tc black">
-        <h4>COMING SOON</h4>
-        <!-- {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-          {{.subtitle}}
-        </p>
-        {{ end }} -->
+<div class="cover w-100 h-100 relative z-0 pv3 mb5 bg-gradient">
+  <div>
+    <div class="mw8 center flex-l mhn2-l">
+      <div class="w-50-l ph2-l">
+        <div class="mw6 center ph3 pl4-ns mt4 pv4">
+          
+          <p><h1 class="f2 f1-l b di lh-title mb3 mw6 white">
+            {{.title}}
+          </h1></p>
+          {{ if .subtitle }}
+          <h2 class="f2 di lh-title mb3 mw6 white b">
+            {{.subtitle}}
+          </h2>
+          {{ end }}
+          {{ if .buttonText}}
+            <p>
+              <a href="#videoplayer" onclick="playVid()" class="mt3 btn bg-primary white raise f6">{{.buttonText}}</a>
+            </p>
+          {{end}}
+        </div>
+      </div>
+      <div class="w-50-l pl3-ns pt5 pb4 tc tl-l cover" style="background-image: url({{.bg}}); height:100%; background-repeat: no-repeat;">
+        
+        <div class="mb3">
+
+          <img src="/img/overview.png" class="w-90" />
+        </div>
+
+
+
       </div>
     </div>
   </div>
 </div>
+

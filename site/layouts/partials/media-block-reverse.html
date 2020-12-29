@@ -1,12 +1,23 @@
-<div class="flex-m mhn3-m mb4">
+<div class="flex-m mhn3-m mb4 mt2 mw7 center">
 
-  <div class="ph3-m w-50-m order-last-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
+  <div class="ph3 w-50-m order-last-m tc mb5-ns">
+    <img src="{{.imageUrl}}" alt="" class="db mb2 mw5 center w-80">
+    {{ if .caption}}
+      <h4 class="mb0">{{.caption | markdownify}}<sup>™</sup></h4>
+    {{end}}
+    {{ if .buttonText}}
+      <p>
+        <a href="{{ .buttonLink }}" class="mt3 btn bg-primary white raise f6">{{.buttonText}}</a>
+      </p>
+    {{end}}
   </div>
 
-  <div class="ph3-m w-50-m">
-    <h3 class="f3 b lh-title mb1">{{.heading}}</h3>
-    <p>{{.text}}</p>
+  <div class="ph3 w-50-m mb5 mb2-ns">
+    <h3 class="f3 b lh-title mb1 primary tc tl-ns pt4">{{.heading | markdownify}}</h3>
+    <p>{{.text | markdownify}}</p>
+    {{ if .text2 }}
+    	<p class="cms">{{.text2 | markdownify}}</p>
+    {{ end }}
   </div>
 
 </div>

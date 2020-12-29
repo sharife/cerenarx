@@ -1,13 +1,46 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.intro.img "subtitle" .Params.intro.text "buttonText" .Params.intro.cta "bg" .Params.intro.bg) }}
 
-<!-- {{ partial "short-text" .Params.blurb}}
+<a name="module1"></a>
+{{ partial "media-block" (dict "heading" .Params.module1.heading "text" .Params.module1.text "text2" .Params.module1.text2 "buttonText" .Params.module1.cta "buttonLink" .Params.module1.link "imageUrl" .Params.module1.img "caption" .Params.module1.caption) }}
 
-{{ partial "2-up" .Params }}
+<a name="slideshow"></a>
+<div class="cover w-100 h-100 relative bg-highlight mb4">
+	<div class="mw7 center cover">
+		<div class="ph3">
+			<h3 class="f3 b lh-title mb1 primary tc pt3">How to use cerena™</h3>
+			<div class="owl-carousel owl-theme">
+			  {{ range .Params.slides }}
+			  <div class="w-100 pa4 pt0 pt4-m flex-ns">
+			  	<div class="w-50-ns ph4-ns mr5-ns pt5">
+			  		<div class="f6 primary b ttu">{{ .eyebrow }}</div>
+			  		<h3 class="f3 b mb2">{{ .heading }}</h3>
+			  		<p class="mb5-ns mw8">{{ .text }}</p>
+			  	</div>
+			  	<div class="w-50-ns center mr3-ns">
+			  		<img src="{{.img}}" class="w-100 h-max center" style="max-width:65%" />
+			  	</div>
+			  </div>
+			  {{ end }}
+			</div>
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+		</div>
+	</div>
+</div>
 
-{{ partial "blog" . }} -->
+
+<a name="module2"></a>
+{{ partial "media-block" (dict "heading" .Params.module2.heading "text" .Params.module2.text "text2" .Params.module2.text2 "buttonText" .Params.module2.cta "buttonLink" .Params.module2.link "imageUrl" .Params.module2.img "caption" .Params.module2.caption) }}
+
+<a name="module3"></a>
+{{ partial "media-block-reverse" (dict "heading" .Params.module3.heading "text" .Params.module3.text "buttonText" .Params.module3.cta "buttonLink" .Params.module3.link "imageUrl" .Params.module3.img "caption" .Params.module3.caption) }}
+
+<!-- <a name="signup"></a>
+<div class="mw8 flex-ns bg-primary center cover" style="background-image: url('/img/bg-form.png');">
+  <div class="pa4 mr4-ns w-50-ns f2 b white" style="align-items: top;">Sign up for more information about attune<sup>™</sup></div>
+  <div class="pa4 w-50-ns">{{ partial "contact-form" }}</div>
+</div> -->
+
 
 {{ end }}
