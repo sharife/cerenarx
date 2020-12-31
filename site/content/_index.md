@@ -6,7 +6,7 @@ module1:
     heading: How it can help
     img: /img/illustration-01.png
     text: >-
-      Almost everyone with cancer experiences challenges to their physical health that are in addition to the cancer. Cerena™ provides resources to help you manage your physical health conveniently located on your smartphone or tablet.
+      Almost everyone with cancer experiences challenges to their physical health that are in addition to the cancer. Cerena™ provides resources to help you manage your physical health conveniently located on your smartphone or tablet, as a means to build resiliency to stress and improve health outcomes.
 module2:
     heading: The science behind it
     img: /img/illustration-02.png
