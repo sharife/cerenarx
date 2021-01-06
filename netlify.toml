@@ -8,3 +8,43 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+
+[redirects]]
+  from = "/article-01"
+  to = "/pdf/01-KeepingBonesStrongandHealthy.pdf"
+
+[redirects]]
+  from = "/article-02"
+  to = "/pdf/02-SunandSkin.pdf"
+
+[redirects]]
+  from = "/article-03"
+  to = "/pdf/03-FightOffFoodPoisoning.pdf"
+
+[redirects]]
+  from = "/article-04"
+  to = "/pdf/04-KeepYourKidneysHealthy.pdf"
+
+[redirects]]
+  from = "/article-05"
+  to = "/pdf/05-YourMicrobesandYou.pdf"
+
+[redirects]]
+  from = "/article-06"
+  to = "/pdf/06-ABurningIssue.pdf"
+
+[redirects]]
+  from = "/article-07"
+  to = "/pdf/07-ColdFluorAllergy.pdf"
+
+[redirects]]
+  from = "/article-08"
+  to = "/pdf/08-AllergensandIrritants.pdf"
+
+[redirects]]
+  from = "/article-09"
+  to = "/pdf/09-KeepanEyeonYourEyes.pdf"
+
+[redirects]]
+  from = "/article-10"
+  to = "/pdf/10-DontTosstheFloss.pdf"
