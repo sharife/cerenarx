@@ -48,3 +48,11 @@
 [[redirects]]
   from = "/article-10"
   to = "/pdf/10-DontTosstheFloss.pdf"
+
+[[redirects]]
+  from = "/about"
+  to = "/docs/about-cerena.pdf"
+
+[[redirects]]
+  from = "/terms"
+  to = "/docs/cerena-ToU.pdf"
