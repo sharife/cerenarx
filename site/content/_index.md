@@ -16,7 +16,7 @@ module3:
     heading: How to get it
     img: /img/illustration-03.png
     text: >-
-      Cerena™ is available today, but only by prescription from your doctor.  If you're still receiving medical treatment for your cancer, you can use cerena™ at the same time.
+      Cerena™ is available to patients today, but only by prescription from your doctor. Due to COVID-19, the FDA recognizes that cancer patients are struggling now more than ever. Their recent guidance enables the immediate release of cerena™, while it is also being studied in clinical trials. If you’re still receiving medical treatment for your cancer, you can use cerena™ at the same time. If you’re experiencing anxiety, depression, or other symptoms of psychological distress you think may be associated with your cancer, ask your doctor if the cerena™ program can help.
 slides:
     - heading: Get your prescription
       eyebrow: step one
